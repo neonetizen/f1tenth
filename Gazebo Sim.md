@@ -23,7 +23,9 @@ Run this to check the Gazebo Version, along with verifying it installed properly
 
 ```
 gz --version
+```
 or
+```
 gz sim --version
 ```
 
