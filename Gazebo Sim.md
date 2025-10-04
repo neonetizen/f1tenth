@@ -40,17 +40,4 @@ Start a small demo world:
 ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="shapes.sdf"
 ```
 
-Bridge the simulated clock (new terminal):
-```
-ros2 run ros_gz_bridge parameter_bridge \
-  /clock@rosgraph_msgs/msg/Clock@gz.msgs.Clock
-```
-
-Check that sim time flows:
-```
-ros2 topic echo -n 1 /clock
-```
-
-Expected Output: one Clock message printed (repeats continuously if you omit -n 1).
-
-Then You Are Done!
+You should see the simulator open and if the timer at the bottom of the simulator starts running, then you are done!
