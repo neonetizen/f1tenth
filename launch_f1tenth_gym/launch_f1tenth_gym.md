@@ -8,7 +8,7 @@
 - The F1TENTH Gym repository is cloned at `~/f1tenth_gym_ros2_humble`
 
 ### Flow of Events:  
-1. Developer executes the launch script (`start_sim.sh`).
+1. Developer executes the launch script (`launch_f1tenth_gym.sh`).
 2. Docker Compose initializes required containers.
 3. Simulator services start, exposing ports for noVNC (8080) and ROS2 nodes.
 4. Developer connects to `http://localhost:8080/vnc.html` to access GUI.
@@ -28,7 +28,7 @@
 - Exiting the process stops all simulator containers.
 
 ### Acceptance test:  
-- `./start_sim.sh` runs without errors.  
+- `./launch_f1tenth_gym.sh` runs without errors.  
 - `curl -f http://localhost:8080/vnc.html` returns HTTP 200.  
 - Within noVNC, the simulator window is visible and interactive.    
 - After termination (`Ctrl + C`), `docker ps` shows no running containers.  
