@@ -13,7 +13,6 @@ If your locale is already set up correctly, you should see something like:
 ```bash
 LANG=en_US.UTF-8
 . . .
-LC_ALL=en_US.UTF-8 
 ```
 If your system doesn't already use UTF-8, fix it with:
 ```bash
@@ -29,7 +28,7 @@ Because ROS 2 isn't in the default Ubuntu repositories, we need to add the offic
 
 First, enable the **Universe repo** which contains many required packages:
 ```bash
-sudo apt install software-properties common
+sudo apt install software-properties-common gnupg lsb-release
 sudo add-apt-repository universe 
 ```
 Then install the package that configures ROS 2 repositories automatically:
@@ -70,11 +69,11 @@ source /opt/ros/humble/setup.bash
 #### Expected Output:
 Run: 
 ```bash
-ros2 --version
+echo $ROS_DISTRO
 ```
 and you should get:
 ```nginx
-ros2 (version)
+humble
 ```
 
 ## Verify Installation with Talker-Listener
@@ -86,8 +85,8 @@ ros2 run demo_nodes_cpp talker
 ```
 #### Expected Output:
 ```csharp 
-[INFO] Publishing: 'Hello World: 1'
-[INFO] Published: 'Hello World: 2'
+[INFO] . . . Publishing: 'Hello World: 1'
+[INFO] . . . Publishing: 'Hello World: 2'
 . . .
 ```
 2. Run a **Python listener:**
@@ -97,8 +96,8 @@ ros2 run demo_nodes_py listener
 ```
 #### Expected Output: 
 ```less 
-[INFO] I heard: [Hello World: 1]
-[INFO] I heard: [Hello World: 2]
+[INFO] . . . I heard: [Hello World: 1]
+[INFO] . . . I heard: [Hello World: 2]
 . . .
 ```
 If you can see matching publish/subscribe logs, ROS 2 has been correctly set up!
