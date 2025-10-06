@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e # exit immediately if any command fails
 
+## Use Case: Launch F1TENTH Gym via Docker
+## Preconditions: ROS2 Humble and Docker installed
+## Acceptance Test: Simulator launches and GUI accessible via noVNC
 echo "This script launches Ray-Quasar F1tenth gym"
 
 cd ~/f1tenth_gym_ros2_humble

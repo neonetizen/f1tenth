@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+## Acceptance Test for: Launch F1TENTH Gym via Docker
+## Checks HTTP response and container lifecycle
 echo "Running acceptance tests..."
 
 # check 1: noVNC
@@ -16,5 +18,7 @@ else
 fi
 
 # check 3: docker ps shows no containers after CTRL+C
+### TODO? or manual check?
 
+# final message!
 echo "Acceptance tests passed."
