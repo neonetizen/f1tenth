@@ -1,5 +1,5 @@
 ## The IMU data is provided by the RealSense D435i
-Documentation for sensore SDK and calibration tools [here](https://docs.ros.org/en/iron/p/librealsense2/user_docs/d435i.html)
+Documentation for sensor SDK and calibration tools [here](https://docs.ros.org/en/iron/p/librealsense2/user_docs/d435i.html)
 ## Instructions
 1. Ensure ```realsense_camera``` ROS2 package is installed, this provides the nodes required to interface with RealSense cameras in ROS2
 2. Launch the rs_launch.py file from the realsense2_camera package, and enable the acceleraometer and gyroscope streams.
