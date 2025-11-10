@@ -44,11 +44,11 @@ This project is supported by mentors with experience in robotics, embedded syste
 
 | Name | Role | Focus Area |
 |------|------|-------------|
-| \[Justin Pelak] | Team Lead | Controls / Path Planning  |
-| \[Jia Gapuz] | Scribe | SLAM / LiDAR Processing / SCRUM Lead |
-| \[Cameron Lee] | Developer | Controls / Systems Integration |
-| \[Robert Fuller] | Developer | Gazebo / Simulation Developer |
-| \[Bryle Ong] | Developer | ROS 2 / Simulation Developer | 
+| [Justin Pelak](https://github.com/orgs/cs496-f1tenth/people/neonetizen) | Team Lead | Controls / Path Planning  |
+| [Jia Gapuz](https://github.com/orgs/cs496-f1tenth/people/gapuzjia) | Scribe | SLAM / LiDAR Processing / SCRUM Lead |
+| [Cameron Lee](https://github.com/orgs/cs496-f1tenth/people/neochimp) | Developer | Controls / Systems Integration |
+| [Robert Fuller](https://github.com/orgs/cs496-f1tenth/people/Bobbyyf) | Developer | Gazebo / Simulation Developer |
+| [Bryle Ong](https://github.com/orgs/cs496-f1tenth/people/darksideshadow) | Developer | ROS 2 / Simulation Developer | 
 
 --- 
 
@@ -67,6 +67,6 @@ Future direction may include reinforcement learning approaches and real world de
 
 - **Operating System:** Ubuntu 22.04 LTS 
 - **Middleware:** ROS 2 Humble Hawksbill 
-- **Langauges:** C++, Python 
+- **Languages:** C++, Python 
 - **Hardware:** F1Tenth car platform (specifications can be found in `documentation/car-specs.md`)
 
