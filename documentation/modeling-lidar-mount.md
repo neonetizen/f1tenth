@@ -5,7 +5,7 @@ The LiDAR mount is designed to give the LiDAR sensor on the car a better positio
 
 Designing the LiDAR mount is meant to give the sensor a better position to better map out the surroundings of the car. It also allows for greater customization and allows for further redesigning of the original vehicle to allow for teams to try to find an advantage on the car.
 
-![[Pasted image 20251110113009.png]]
+![LiDAR Mount](./images/Pasted_image_20251110113009.png)
 
 ## Design
 
@@ -14,6 +14,6 @@ The simple design of the mount is both easy to produce and functional, as it all
 
 The specifications of the mount follow the design of the mounting plate on the car, provided below.
 
-![[Pasted image 20251110131707.png]]
+![Specifications](./images/Pasted_image_20251110131707.png)
 
 The plastic used to produce this is PETG (Polyethylene Terephthalate Glycol), which is a more durable and offers more strength compared to regular PLA. This is important since testing for the car it is possible it will crash at high speeds, therefore requiring better and stronger material.
