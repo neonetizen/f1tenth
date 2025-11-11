@@ -5,8 +5,8 @@ echo "=== Checking active nodes ==="
 ros2 node list | grep cartographer
 
 echo "=== Checking topic activity ==="
-/bin/bash -c "ros2 topic hz /scan --window 1 --once"
-/bin/bash -c "ros2 topic hz /odom --window 1 --once"
-/bin/bash -c "ros2 topic hz /map --window 1 --once"
+ros2 topic info /scan -v
+ros2 topic info /map -v
+ros2 topic info /odom -v
 
 echo "=== Test complete ==="
