@@ -3,7 +3,7 @@ This documentation outlines the steps to set up a silumator through Gazebo and R
 1. Install packages for slam_toolbox, nav2, and gazebo_ros_pkgs
 2. Clone and set up the following repositories in a workspace:
 
-[https://github.com/rtecf1tenthhttps://github.com/rtecf1tenth](https://github.com/rtecf1tenth)
+https://github.com/rtecf1tenth/sim_gazebo_ros2/tree/racing-stack
 
 https://github.com/rtecf1tenth/stanley_controller
 
