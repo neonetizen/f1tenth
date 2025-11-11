@@ -15,7 +15,7 @@ https://github.com/ANI717/aws-robomaker-racetrack-world-ros2
 
 Instructions for building the individual repositories are included in thier respective repositories.
 
-1. Build the workspace with the following command:
+3. Build the workspace with the following command:
 
 ```jsx
 cd ~/ros2_ws
@@ -23,31 +23,31 @@ colcon build
 source install/setup.bash
 ```
 
-1. To launch the simulator run the command:
+4. To launch the simulator run the command:
 
 ```jsx
 ros2 launch rtec_vehicle_sim [racetrack.launch.py](http://racetrack.launch.py/)
 ```
 
-1. To run the map server run the command:
+5. To run the map server run the command:
 
 ```jsx
 ros2 launch rtec_vehicle_sim map_server.launch.py
 ```
 
-1. To run AMCL:
+6. To run AMCL:
 
 ```jsx
 ros2 launch rtec_vehicle_sim [amcl.launch.py](http://amcl.launch.py/)
 ```
 
-1. To run the controller algorithm, run the command:
+7. To run the controller algorithm, run the command:
 
 ```jsx
 ros2 launch rtec_vehicle_sim [stanley.launch.py](http://stanley.launch.py/)
 ```
 
-1. To run the graph-based local planner, run the command:
+8. To run the graph-based local planner, run the command:
 
 ```jsx
 python3 path/to/ros/src/gblp/graph_based_local_planner_ros/main_sim.py
