@@ -1,0 +1,17 @@
+digraph G {
+"base_link" -> "camera"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: Authority undetectable\nAverage rate: 11.485\nBuffer length: 10.1\nMost recent transform: 7232.522\nOldest transform: 7222.422\n"];
+"camera" -> "camera_link_optical"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "laser"[label=" Broadcaster: Authority undetectable\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "right_front_wheel"[label=" Broadcaster: Authority undetectable\nAverage rate: 20.1\nBuffer length: 10.05\nMost recent transform: 7232.522\nOldest transform: 7222.472\n"];
+"base_link" -> "left_front_wheel"[label=" Broadcaster: Authority undetectable\nAverage rate: 20.1\nBuffer length: 10.05\nMost recent transform: 7232.522\nOldest transform: 7222.472\n"];
+"base_link" -> "right_rear_wheel"[label=" Broadcaster: Authority undetectable\nAverage rate: 20.1\nBuffer length: 10.05\nMost recent transform: 7232.522\nOldest transform: 7222.472\n"];
+"base_link" -> "left_rear_wheel"[label=" Broadcaster: Authority undetectable\nAverage rate: 20.1\nBuffer length: 10.05\nMost recent transform: 7232.522\nOldest transform: 7222.472\n"];
+"base_link" -> "right_steering_hinge"[label=" Broadcaster: Authority undetectable\nAverage rate: 20.1\nBuffer length: 10.05\nMost recent transform: 7232.522\nOldest transform: 7222.472\n"];
+"base_link" -> "left_steering_hinge"[label=" Broadcaster: Authority undetectable\nAverage rate: 20.1\nBuffer length: 10.05\nMost recent transform: 7232.522\nOldest transform: 7222.472\n"];
+"map" -> "odom"[label=" Broadcaster: Authority undetectable\nAverage rate: 11.485\nBuffer length: 10.1\nMost recent transform: 7232.522\nOldest transform: 7222.422\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1762834744.7302186"[ shape=plaintext ] ;
+}->"map";
+}
